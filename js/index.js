@@ -1,6 +1,6 @@
 // Your code goes here
 
-window.addEventListener("load", (e) => {
+window.addEventListener("load", (event) => {
   console.log("YAY!! The page has been loaded successfully!!");
 });
 
@@ -24,7 +24,7 @@ navButtons.forEach(function (element) {
     } else {
       element.style.textDecorationLine = null;
     }
-    e.preventDefault();
+    event.preventDefault();
   });
 });
 
